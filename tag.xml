@@ -1,6 +1,4 @@
-<tag>
-  <entry name="{{ tag_name }}">
-    <color>{{ tag_color }}</color>
-    <comments>{{ tag_comment }}</comments>
-  </entry>
-</tag>
+<entry name="{{ tag_name }}">
+  <color>{{ tag_color }}</color>
+  <comments>{{ tag_comment }}</comments>
+</entry>
