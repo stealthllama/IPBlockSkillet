@@ -1,4 +1,4 @@
-<entry name="edl_out">
+<entry name="{{ edl_name}} outbound">
   <profile-setting>
     <group>
       <member>default</member>
@@ -34,7 +34,7 @@
   <action>deny</action>
   <log-setting>default</log-setting>
 </entry>
-<entry name="edl_in">
+<entry name="{{ edl_name}} inbound">
   <profile-setting>
     <group>
       <member>default</member>
