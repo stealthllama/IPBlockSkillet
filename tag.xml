@@ -1,0 +1,14 @@
+<tag>
+  <entry name="tag_red">
+    <color>color1</color>
+    <comments>red</comments>
+  </entry>
+  <entry name="tag_blue">
+    <color>color25</color>
+    <comments>cerulean blue</comments>
+  </entry>
+  <entry name="tag_green">
+    <color>color2</color>
+    <comments>green</comments>
+  </entry>
+</tag>

@@ -1,0 +1,13 @@
+<external-list>
+  <entry name="edl_name">
+    <type>
+      <ip>
+        <recurring>
+          <five-minute/>
+        </recurring>
+        <description>edl_description</description>
+        <url>http://edl.com</url>
+      </ip>
+    </type>
+  </entry>
+</external-list>
