@@ -40,6 +40,11 @@ variables:
         value: option1
       - key: option2
         value: option2
+  - name: comment
+    description: Add a comment
+    default:
+    type_hint: text
+
 # ---------------------------------------------------------------------
 # end of variables section
 
