@@ -33,6 +33,9 @@
   </hip-profiles>
   <action>deny</action>
   <log-setting>default</log-setting>
+  <tag>
+    <member>{{ tag_name }}</member>
+  </tag>
 </entry>
 <entry name="{{ edl_name }} inbound">
   <profile-setting>
@@ -69,4 +72,7 @@
   </hip-profiles>
   <action>deny</action>
   <log-setting>default</log-setting>
+  <tag>
+    <member>{{ tag_name }}</member>
+  </tag>
 </entry>
