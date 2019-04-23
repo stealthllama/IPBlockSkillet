@@ -32,24 +32,33 @@ variables:
     default: 
     type_hint: text
   - name: edl_description
-    description: Description
+    description: EDL Description
     default: 
     type_hint: text
-  - name: edl_color
-    description: Color
+  - name: edl_url
+    description: EDL URL
+    default:
+    type_hint: text
+  - name: tag_name
+    description: Tag Name
+    default:
+    type_hint: text
+  - name: tag_color
+    description:  Tag Color
     default: choices
     type_hint: dropdown
     dd_list:
       - key: Red
-        value: tag_red
+        value: color1
       - key: Blue
-        value: tag_blue
+        value: color25
       - key: Green
-        value: tag_green
-  - name: edl_url
-    description: URL
-    default:
+        value: color2
+  - name: tag_comment
+    description: Tag Description
+    default: 
     type_hint: text
+
 
 # ---------------------------------------------------------------------
 # end of variables section
